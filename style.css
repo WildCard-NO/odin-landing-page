@@ -4,9 +4,6 @@ body{
     
      */
     background-size: cover;
-    
-    
-    
     height: 100vh;
     padding:0;
     margin:0;
@@ -73,8 +70,30 @@ a {
   z-index: -1;
 }
 
+
+.container {
+  height: 130px;
+  padding: 160px;
+  border: 4px solid indigo;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  margin-bottom: 200px;
+}
+
+
 .static {
   background-image: url('https://www.videogameschronicle.com/files/2022/02/sds5.jpg');
+}
+
+
+.item {
+  width: 200px;
+  height: 200px;
+  border: 4px solid
+  skyblue;
+  background: darkslategray;
 }
 
 .bg1::after {
@@ -104,4 +123,18 @@ a {
   bottom:10px;
   right:10px;
   z-index: 1000;
+}
+
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
